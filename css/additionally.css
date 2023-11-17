@@ -1,0 +1,24 @@
+.left-bar {
+    float: left;
+    margin-top: 12px;
+    padding-bottom: 12px;
+    margin-left: 25px;
+    margin-right: auto;
+    width: 30vw;
+    height: auto;
+    border-radius: 15px;
+    background-color: White;
+}
+
+.left-bar-title {
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.left-bar-who-worked ul li {
+    text-align: center;
+    font-size: large;
+    list-style-type: none;
+    padding: 12px;
+}

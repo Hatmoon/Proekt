@@ -1,0 +1,89 @@
+.schedule-element { 
+    padding-bottom: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    width: 50vw;
+    height: auto;
+    border-radius: 15px;
+    background-color: White;
+}
+.schedule-element-corner {
+    float: left;
+    width: 8%;
+    height: 16%;
+    padding: 0.5%;
+    border-radius: 40px 20px 180px;
+    background-color: lightblue;
+}
+
+.schedule-element-title {
+    padding-top: 2%;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.schedule-element-item {
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    height: auto;
+    border-radius: 15px;
+    background-color: White;
+    transition: background-color 0.5s ease;
+}
+
+.schedule-element-item-time {
+    padding-left: 12px;
+    float: left;
+    text-align: left;
+}
+
+.schedule-element-item-subject {
+    float: 12%;
+    text-align: center;
+}
+
+.schedule-element-item:hover {
+    background-color: #d3d4d6;
+}
+
+.groups {
+    position:fixed;
+    float: left;
+    overflow: hidden;
+    font-size: 20px;
+    list-style: none;
+    
+}
+
+.list.click {
+    padding-bottom: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+    border-radius: 15px;
+    background-color: White;
+    font-weight: bold;
+}
+
+.groups li {
+    padding: 12px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 12px;
+}
+
+.groups li:hover {
+    padding-bottom: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+    border-radius: 15px;
+    background-color: Snow;
+}
